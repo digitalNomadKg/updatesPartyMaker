@@ -1,20 +1,28 @@
 /* Footer CSS */
 .bottom-container{
-  padding: 50px 20px 50px 20px;
+  padding: 50px 20px 0 ;
   text-align: center;
+  }
+
+  .container-fluid-footer{
+    padding: 3% 10% 3%;
   }
   
   .bottom-container a{
     color: #323232;
     text-decoration: none;
     font-size: 1.2rem;
+    padding: 10px;
   }
   .social-icon {
     padding: 1rem 5rem 1rem 5rem;
-    font-size: 2rem;
     letter-spacing: 0.8rem;
   }
   
   .social-icon a:hover {
     color:#F7C610;
+  }
+
+  .copyright{
+    margin: 0;
   }

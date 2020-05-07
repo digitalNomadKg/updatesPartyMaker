@@ -7,8 +7,6 @@
   color: #45454d;
 }
 
-
-
 /* Navbar */
 .navbar-brand{
   padding: 0;
@@ -26,9 +24,33 @@
 .navbar-dark .navbar-nav .nav-link{
   color:#323232;
   font-family: 'Ubuntu', sans-serif;
-	font-size: 1.3rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
   color:#F7C610;
+}
+
+/* jumbotron */
+
+.jumbotron-fluid{
+  margin: 0;
+}
+
+/* button */
+
+.button{
+  display: block;
+  padding: 1rem;
+  margin: 0 auto 0 auto;
+ 
+}
+.btn{
+  background: #F7C610;
+  color: #323232;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem 4rem;
+  width: auto;
 }
 
