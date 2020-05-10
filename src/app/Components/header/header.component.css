@@ -18,14 +18,13 @@
 }
 
 .navbar-toggler{
-  background: #45454d;
+  background: #323232;
 }
 
 .navbar-dark .navbar-nav .nav-link{
   color:#323232;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.3rem;
-  text-transform: uppercase;
+  font-size: 1.2rem;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
   color:#F7C610;

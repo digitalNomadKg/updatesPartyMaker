@@ -1,0 +1,20 @@
+<h2>Party Details</h2> 
+
+<hr/>
+<div *ngIf="party">
+  <div>
+    <label><b>First Name: </b></label> {{party.firstName}}
+  </div>
+  <div>
+    <label><b>Last Name: </b></label> {{party.lastName}}
+  </div>
+  <div>
+    <label><b>Email Id: </b></label> {{party.emailId}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Party List</button><br>
+
+
