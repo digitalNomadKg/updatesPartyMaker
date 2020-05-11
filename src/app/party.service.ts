@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PartyService {
 
-  private baseUrl = 'http://localhost:8080/springboot-crud-rest/api/v1/parties';
+  private baseUrl = 'http://localhost:3306/springboot-crud-rest/api/v1/parties';
 
   constructor(private http: HttpClient) { }
 

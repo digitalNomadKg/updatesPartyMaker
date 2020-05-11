@@ -31,9 +31,18 @@
       <h1 class="display-4">Welcome to party maker!</h1>
       <p class="lead">Looking for the party making and makers?<br /></p>
       <p class="button">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Choose Party</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Add Party</a>
+        <a class="btn btn-primary btn-lg" routerLink="parties" routerLinkActive="active" role="button">Party List</a>
+        <a class="btn btn-primary btn-lg" routerLink="add" routerLinkActive="active" role="button">Add Party</a>
       </p>
+    </div>
+    <div class="container">
+      <br>
+      <hr>
+      <div class="card">
+        <div class="card-body">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
     </div>
   </div>
 </section>
