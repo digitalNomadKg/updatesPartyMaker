@@ -12,14 +12,17 @@
           <th>Actions</th>
         </tr>
       </thead>
+  
       <tbody>
-        <tr *ngFor="let party of parties | async">
+
+        <tr *ngFor='let party of parties | async'>
           <td>{{party.firstName}}</td>
           <td>{{party.lastName}}</td>
           <td>{{party.emailId}}</td>
-          <td><button (click)="deleteParty(party.id)" class="btn btn-danger">Delete</button>
-              <button (click)="updateParty(party.id)" class="btn btn-info" style="margin-left: 10px">Update</button>
-              <button (click)="partyDetails(party.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+          <td>
+            <button (click)='deleteParty(party.id)' class="btn btn-danger">Delete</button>
+            <button (click)='updateParty(party.id)' class="btn btn-info" style="margin-left: 10px">Update</button>
+            <button (click)='partyDetails(party.id)' class="btn btn-info" style="margin-left: 10px">Details</button>
           </td>
         </tr>
       </tbody>
