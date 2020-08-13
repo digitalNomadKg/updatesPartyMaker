@@ -19,8 +19,8 @@ Vagrant.configure("2") do |config|
     config.vm.network "private_network", ip: "192.168.33.10"
     # config.vm.network "public_network"
 
-    # #Folder settings
-    config.vm.synced_folder ".", "/var/www/html", :mount_options => ["dmode=777", "fmode=666"]
+    #Folder settings
+    # config.vm.synced_folder ".", "", :mount_options => ["dmode=777", "fmode=666"]
 
     #Provision seettings
     # config.vm.provision "shell", inline: <<-SHELL
